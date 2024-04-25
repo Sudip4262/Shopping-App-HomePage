@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {View, Text, Image, ScrollView, TouchableOpacity} from 'react-native';
 import { Button, Card} from 'react-native-paper';
 import database from '@react-native-firebase/database';
-import QRCode from 'react-native-qrcode-svg';
 
 export default class FirstPage extends Component {
   constructor(props) {
@@ -41,9 +40,6 @@ export default class FirstPage extends Component {
       <View style={{flex: 1}}>
         {/* firstFlex */}
         <View style={{flex: 2, flexDirection: 'row'}}>
-        <QRCode
-      value= "7477544262@ybl"
-    />
           <View
             style={{
               flex: 2.5,
